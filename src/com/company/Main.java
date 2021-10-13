@@ -20,7 +20,8 @@ public class Main {
         System.out.print("Müzik notunuzu giriniz : ");
         müzik = input.nextInt();
 
-        int result = (müzik+fizik+kimya+türkce+tarih+müzik)/6;
+        double result = (müzik+fizik+kimya+türkce+tarih+müzik)/6;
+        System.out.println(result);
         String başarı = result > 60 ? "Sınıfı Geçti" : "Sınıfta Kaldı";
         System.out.println(başarı);
 
