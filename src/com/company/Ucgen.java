@@ -14,11 +14,10 @@ public class Ucgen {
         b = ip.nextInt();
 
         c = Math.sqrt((a*a) + (b*b));
-        System.out.println("Üçgenin Hipotenüsü : " + c);
-
         cevre = ((a+b+c)/2);
-
         alan = Math.sqrt(cevre * (cevre - a) * (cevre - b) * (cevre - c));
+
+        System.out.println("Üçgenin Hipotenüsü : " + c);
         System.out.println("Üçgenin çevresi : " + cevre);
         System.out.println("Üçgenin alanı : " + alan);
 
