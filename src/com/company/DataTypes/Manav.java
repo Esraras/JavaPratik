@@ -1,4 +1,4 @@
-package com.company;
+package com.company.DataTypes;
 import java.util.Scanner;
 
 public class Manav {
