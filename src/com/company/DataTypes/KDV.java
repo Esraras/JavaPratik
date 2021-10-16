@@ -11,6 +11,9 @@ public class KDV {
         kdvliTutar = tutar + kdvTutar;
 
 
+       //double kdv = (tutar > 1000) ? 0.08 : 0.18;
+
+
         if (tutar < 1000){
             kdvOran = 0.18;
         }else if (tutar > 1000)
