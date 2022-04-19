@@ -3,7 +3,7 @@ package com.company.Loops;
 public class Armstrong2 {
     public static void main(String[] args) {
 
-        int numberCounter = 0, counterValue = 1, result = 0;
+        int numberCounter, counterValue, result;
         int countPow;
 
             for (int i = 100; i <= 999; i++){
@@ -24,8 +24,8 @@ public class Armstrong2 {
                     result += countPow;
                     tempI /= 10;
                 }
-                System.out.println(result);
-                //if (result == i) System.out.println(i);else System.out.println("armstrong sayı değil");
+                System.out.println(i);
+                if (result == i) System.out.println("yes");
             }
     }
 }
